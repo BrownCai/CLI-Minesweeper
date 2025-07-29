@@ -22,7 +22,7 @@ public class main {
         System.out.println("Select your difficulty level: easy, normal, difficult");
         System.out.print("Enter the level: ");
         newlevel = scanner.next();
-        while ((!newlevel.equals("easy"))||(!newlevel.equals("easy"))||(!newlevel.equals("easy"))){
+        while (!(newlevel.equals("easy")||newlevel.equals("normal")||newlevel.equals("difficult"))){
             System.out.print("Spelling error! Please type again: ");
             newlevel = scanner.next();
         }
